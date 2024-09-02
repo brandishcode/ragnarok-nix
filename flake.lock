@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "erosanix": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1724155976,
+        "narHash": "sha256-v2T5rUjmVxIw+rd0A/TSURK7622UkE1QTzECWOtNUoA=",
+        "owner": "brandishcode",
+        "repo": "erosanix",
+        "rev": "b276ba6476d5dfa303c2ac8f4dc4f3edddd7e5b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "brandishcode",
+        "repo": "erosanix",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673956053,
+        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1725179503,
+        "narHash": "sha256-oEuaj+kzoXsB+1caE5rV8u3i9GUvXxKrNl0ytTfAmr0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0955a073344d414b4f2f7164cbdc86ec220dfd1d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "erosanix": "erosanix",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

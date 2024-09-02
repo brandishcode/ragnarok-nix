@@ -1,0 +1,4 @@
+installers/*
+!installers/README.md
+
+result
